@@ -1,0 +1,42 @@
+{
+  "name": "ai-interview-platform",
+  "version": "1.0.0",
+  "description": "AI-powered interview preparation platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "lucide-react": "^0.344.0",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "framer-motion": "^11.0.0",
+    "socket.io-client": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.3.0",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "keywords": [
+    "ai",
+    "interview",
+    "preparation",
+    "nextjs",
+    "react",
+    "typescript"
+  ],
+  "author": "Pratik Acharya",
+  "license": "MIT"
+}
